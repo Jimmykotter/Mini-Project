@@ -1,0 +1,102 @@
+/* Universal styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+  
+    color: #333;
+    line-height: 1.6;
+    background-color: rgba(71, 71, 71, 0.336);
+  }
+  
+  /* Header and navigation styling */
+  header {
+    background-color: #389b96;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    display: inline;
+  }
+
+  /* Image and caption styling */
+  .image-section {
+    margin: 4rem auto;
+    text-align: center;
+  }
+  
+  .image-section img {
+
+    max-width: 30%;
+    height: auto;
+  }
+  
+  .image-section figcaption {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* About and contact sections */
+  #about, #contact {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  #contact h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  label {
+    margin-top: 1rem;
+  }
+  
+  input, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  button {
+    background-color:#233f27;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #1b1b91;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* Utility for spacing main content below fixed header */
+  main {
+    padding-top: 100px;
+    
+  }
